@@ -1,0 +1,16 @@
+/*!
+ * domready (c) Dustin Diaz 2014 - License MIT
+ * ie10 fix - Mikael Kristiansson 2019
+ */
+
+//! Animations
+
+//! BUTTONS
+
+//! scrollSnapAlign: [null, 'start', 'start', 'start', 'start','start'],
+
+//! ui
+
+//!NavSubSub is not defined
+
+//!Submenubox is lady coding for the saas dropdown menu, should've been a NavSubLink variant (or whatever)

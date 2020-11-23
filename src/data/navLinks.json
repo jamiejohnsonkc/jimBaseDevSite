@@ -1,0 +1,19 @@
+{
+	"navLinks": [
+		{
+			"id": "1",
+			"text": "skill set",
+			"path": "/"
+		},
+		{
+			"id": "2",
+			"text": "projects",
+			"path": "/projects"
+		},
+		{
+			"id": "3",
+			"text": "contact",
+			"path": "/"
+		}
+	]
+}
