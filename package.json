@@ -1,9 +1,14 @@
 {
-    "name": "devSite",
+    "name": "gatsby-theme-jim-starter",
     "private": false,
     "version": "1.0.0",
     "main": "index.js",
     "license": "MIT",
+    "author": "@jamiejohnsonkc",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jamiejohnsonkc/gatsby-jim-theme-starter.git"
+    },
     "dependencies": {
         "@types/node": "^14.6.0",
         "@types/react-dom": "^16.9.8",
