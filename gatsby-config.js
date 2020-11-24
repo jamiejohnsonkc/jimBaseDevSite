@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `devSite`,
+    title: `gatsby-theme-jim-starter`,
     description: `jim devSiteStarter`,
     author: `@jamiejohnsonkc`,
   },
