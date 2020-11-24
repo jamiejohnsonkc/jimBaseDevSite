@@ -5,23 +5,6 @@ module.exports = {
     author: `@jamiejohnsonkc`,
   },
   plugins: [
-    {
-      resolve: `gatsby-plugin-scroll-reveal`,
-      options: {
-        threshold: 0.15, // Percentage of an element's area that needs to be visible to launch animation
-        once: true, // Defines if animation needs to be launched once
-        disable: false, // Flag for disabling animations
-
-        // Advanced Options
-        selector: '[data-sal]', // Selector of the elements to be animated
-        animateClassName: 'sal-animate', // Class name which triggers animation
-        disabledClassName: 'sal-disabled', // Class name which defines the disabled state
-        rootMargin: '0% 50%', // Corresponds to root's bounding box margin
-        enterEventName: 'sal:in', // Enter event name
-        exitEventName: 'sal:out', // Exit event name
-      },
-    },
-
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
@@ -29,11 +12,8 @@ module.exports = {
       options: {
         google: {
           families: [
-            // 'Roboto: 100,300,400,700,900',
-            // 'Roboto Slab: 300, 400, 700, 900',
-            'Spectral: 300,400,600,700',
-            'Source Sans Pro: 200,300,400,600,700,900',
-            'Source Code Pro',
+            'Roboto: 100,300,400,700,900',
+            'Roboto Slab: 300, 400, 700, 900',
           ],
         },
       },
@@ -57,8 +37,6 @@ module.exports = {
     },
     `gatsby-plugin-theme-ui`,
     `gatsby-theme-jim-components`,
-    `gatsby-theme-nav-fulloverlay`,
-    `gatsby-theme-ticker`,
     `gatsby-theme-jim-theme-ui`,
     `gatsby-plugin-typescript`,
     `gatsby-plugin-preload-fonts`,

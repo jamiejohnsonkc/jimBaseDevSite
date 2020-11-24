@@ -1,5 +1,5 @@
 {
-    "name": "gatsby-theme-jim-starter",
+    "name": "jimbBaseDevSite",
     "private": false,
     "version": "1.0.0",
     "main": "index.js",
@@ -7,7 +7,7 @@
     "author": "@jamiejohnsonkc",
     "repository": {
         "type": "git",
-        "url": "https://github.com/jamiejohnsonkc/gatsby-theme-jim-starter.git"
+        "url": "https://github.com/jamiejohnsonkc/jimBaseDevSite.git"
     },
     "dependencies": {
         "@types/node": "^14.6.0",
@@ -19,7 +19,6 @@
         "gatsby-plugin-web-font-loader": "^1.0.4",
         "gatsby-theme-jim-components": "1.0.0",
         "gatsby-theme-jim-theme-ui": "1.0.0",
-        "gatsby-theme-scroll-reveal": "1.0.0",
         "gatsby-transformer-sharp": "^2.5.15",
         "gatsby": "^2.24.47",
         "react-dom": "^16.13.1",
