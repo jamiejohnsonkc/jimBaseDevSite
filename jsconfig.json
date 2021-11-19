@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "baseUrl": "./src",
+        "checkJs": true,
+        "jsx": "react"
+    },
+    "include": ["**/src/**/*.js"],
+    "exclude": ["node_modules", "**/node_modules/*", "cache", "**/public/*"]
+}

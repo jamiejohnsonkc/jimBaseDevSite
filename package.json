@@ -1,0 +1,39 @@
+{
+    "name": "jimBaseDevSite",
+    "private": false,
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "author": "@jamiejohnsonkc",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/jamiejohnsonkc/jimBaseDevSite.git"
+    },
+    "dependencies": {
+        "@types/node": "^14.6.0",
+        "@types/react": "^17.0.0",
+        "@types/react-dom": "^17.0.0",
+        "gatsby": "^2.24.47",
+        "gatsby-plugin-preload-fonts": "^1.2.28",
+        "gatsby-plugin-sharp": "^2.6.36",
+        "gatsby-plugin-theme-ui": "^0.3.3",
+        "gatsby-plugin-web-font-loader": "^1.0.4",
+        "gatsby-source-filesystem": "^2.6.1",
+        "gatsby-theme-jim-components": "1.0.0",
+        "gatsby-theme-jim-theme-ui": "1.0.0",
+        "gatsby-theme-nav-fulloverlay": "1.0.0",
+        "gatsby-transformer-sharp": "^2.5.15",
+        "react": "^17.0.1",
+        "react-dom": "^17.0.1",
+        "react-svg-unique-id": "^1.3.3",
+        "theme-ui": "^0.3.5"
+    },
+    "scripts": {
+        "develop": "gatsby develop",
+        "build": "gatsby build"
+    },
+    "devDependencies": {
+        "gatsby-image": "^2.4.19",
+        "gatsby-plugin-react-svg": "^3.0.0"
+    }
+}
