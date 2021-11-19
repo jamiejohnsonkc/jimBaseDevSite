@@ -1,7 +1,11 @@
 /** @jsx jsx */
 import { jsx, Box } from 'theme-ui'
 import React from 'react'
+<<<<<<< HEAD
 import Glyph from '../../../svg/assets/jjGlyph.svg'
+=======
+import Glyph from '../../../../../src/svg/assets/jjglyph.svg'
+>>>>>>> 9b00277552e7c548858336731720a4add1504472
 import PropTypes from 'prop-types'
 
 const Logo = (props) => (

@@ -36,7 +36,10 @@ module.exports = {
       },
     },
     `gatsby-plugin-theme-ui`,
+<<<<<<< HEAD
     `gatsby-theme-nav-fulloverlay`,
+=======
+>>>>>>> 9b00277552e7c548858336731720a4add1504472
     `gatsby-theme-jim-components`,
     `gatsby-theme-jim-theme-ui`,
     `gatsby-plugin-typescript`,
